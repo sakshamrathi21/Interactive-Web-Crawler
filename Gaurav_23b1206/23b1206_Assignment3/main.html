@@ -1,0 +1,146 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Gaurav</title>
+</head>
+<body>
+    <div id="navbar">
+      <a>Gaurav</a>
+      <div id="leftnavbar">
+          <a onclick="scrollToSection('about')" class="leftnavbar" >About</a>
+  <a onclick="scrollToSection('courses')" class="leftnavbar" >Courses</a>
+            <a onclick="scrollToSection('projects')" class="leftnavbar" >Projects</a> 
+              <a onclick="scrollToSection('hobbies')" class="leftnavbar" >Hobbies</a></div>
+    </div>
+    <div id="imgbg">
+    <img src="gd.jpeg" id="img"></img>
+</div>
+      <div class="content" id="about" onmouseover="undercursor(this)" onmouseleave="cursorleft(this)">
+      <p> Hi I am Gaurav, a fresher in IIT Bombay. I am currently pursuing BTech in Electrical Engineering </p>
+    </div>
+    <div class="content" onmouseover="undercursor(this)" onmouseleave="cursorleft(this)">
+      <h2> COURSES</h2>
+      <div id="courses">
+      <div>
+        <h3>1st sem</h3>
+        <p>1st sem we had 6 courses holding 31 credits in total</p>
+        <table>
+          <tr>
+            <th>Course</th>
+            <th>credits</th>
+          </tr>
+          <tr>
+            <td>MA105</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>EE103</td>
+            <td>6</td>
+      </tr>
+      <tr>
+        <td>CS101</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>HS109</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>SOM101</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>PH117</td>
+        <td>3</td>
+      </tr>
+    </table>
+  </div>
+  <div>
+    <h3> 2nd sem</h3>
+    <p>2nd sem we have 5 courses holding 33 credits in total</p>
+    <b> currently running</b>
+    <table>
+      <tr>
+        <th>Course</th>
+        <th>credits</th>
+      </tr>
+      <tr>
+        <td>MA110</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>MS101</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>PH110</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>EE114</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>CH117</td>
+        <td>3</td>
+      </tr>
+    </table>
+  </div>
+</div> 
+ </div>
+    <div class="content" id="projects" onmouseover="undercursor(this)" onmouseleave="cursorleft(this)">
+      <h2>PROJECTS</h2>
+      <div class="projects">
+        <h5>XLR8</h5>
+        <p>XLR8 is a bot making competition conducted by the Electronics and Robotics Club of IIT Bombay.
+        We worked in a teaam of 4 and built the bot and made it succesfully pass all the obstacles and also 2 problem statements of tech teams for recruitment</p>
+      </div>
+      <div class="projects">
+        <h5>RC Plane competition</h5>
+        <p>RC Plane competition is a competiton hosted by aeromodelling club of IIT Bombay.We worked in a teaam of 4 and built the Plane and made it succesfully reach the skies</p>
+      </div>
+      <div class="projects">
+        <h5>SIH</h5>
+        <p>SIH stands for Smart India Hackathon.The project on which worked was an app for parking optimisation in metro cities
+        </p>
+      </div>
+      <div class="projects">
+        <h5>Robo Soccer</h5>
+        <p>Robo soccer was a competiton hosted by ITC as a part of it's flagship event, Tech RnD expo. I along with a guy made a bot to play soccer and cleared the eliminations </p>
+      </div>
+      <div class="projects">
+        <h5> Interactive Web crawler</h5><b>currently working</b>
+        <p>This is a projects under the WIDS program of Analytics club,IIT Bombay.I learnt Python while working on this project</p>
+      </div>
+      <div class="projects">
+        <h5>VR Headset for visually impaird</h5><b>currently working</b>
+        <p> This is a project initiative of SN microfactory labs. I along with my teammate am making a VR headset for visually impaired to assist them is classroom by magnification of the slides and notes.</p>
+      </div>
+ </div>
+ <div class="content" onmouseover="undercursor(this)" onmouseleave="cursorleft(this)">
+  <div id="hobbies">
+  <p>My hobbies are </p>
+  <ul>
+    <Li><a href="basketball.html" target="_blank">Basketball</a></Li>
+    <Li><a>Movies</a></Li>
+    <Li><a>Sleeping</a></Li>
+  </div>
+ <div class="content" id="last">
+  <h2>Contact me</h2>
+ <div id="contact">
+  <input id="nme" placeholder="Enter your name">
+ <br>
+   <input id="email" placeholder="Enter you email">
+</div>
+  <button onclick="submit(nme,email)">Submit</button>
+  <button onclick="runPythonScript()">Run Python Script</button>
+</div> 
+ <div id="footer">
+<div id="cntct"><a onclick="scrollToSection('last')">Contact me</a> </div>
+<div><a href="https://www.linkedin.com/in/gauravgd" target="_blank"><img src="linkedin.png" class="ftimg"></a>
+<a href="https://github.com/GD-07" target="_blank"><img src="github.png" class="ftimg"></a>
+ </div>
+</div>
+</body>
+</html>

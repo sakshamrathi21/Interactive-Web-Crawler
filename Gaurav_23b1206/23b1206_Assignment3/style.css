@@ -1,0 +1,97 @@
+body {
+    background-color: black;
+} 
+#navbar {
+    display: flex;
+    font-family: Arial, sans-serif;
+    background-color: cyan;
+    border: 1px solid rgb(0, 255, 255);
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
+#leftnavbar {
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.leftnavbar{
+    padding: 7px;
+}
+#img {
+    background-color: aquamarine;
+    border-radius: 1000px;
+}
+#imgbg {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(7, 87, 117);
+    border-radius: 3px;
+}
+.content{
+    background-color: rgb(118, 233, 145);
+    margin: 2px;
+    border-radius: 10px;
+    padding: 6px;
+}
+#courses{
+    display: flex;
+}
+#courses div{
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        background-color:rgb(22, 213, 213);
+}
+.projects{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color:rgb(22, 213, 213);
+}
+#hobbies{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color:rgb(22, 213, 213);
+}
+#footer{
+    display: flex;
+    width: 96.8%;
+    font-family: Arial, sans-serif;
+    background-color: cyan;
+    border: 1px solid rgb(0, 255, 255);
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 5px;
+    justify-content: space-between;
+    bottom: 0;
+    position: fixed;
+    height: 18px;
+}
+.ftimg{
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+#contact{
+    border-radius: 10px;
+    background-color:rgb(22, 213, 213);
+}
+#last{
+    margin-bottom: 50px;
+}
+#cntct{
+    cursor: pointer;
+}
+.undercursor{
+    background-color: deepskyblue;
+}
+
+a:hover{
+    background-color: rgb(4, 137, 185);
+    border-radius: 10px;
+    padding: 10px;
+}
