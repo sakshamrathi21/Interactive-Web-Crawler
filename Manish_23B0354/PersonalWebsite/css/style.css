@@ -1,0 +1,147 @@
+.header{
+    background-color: #222222;
+    color: #DDDbCE;
+    display: flex;
+    padding: 2.5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: fixed;
+    width: 95%;
+    z-index: 1000;
+    top:0;
+    align-items: center;
+
+}
+
+#logo{
+    font-size: 40px;
+    font-weight: bold;
+    flex:1 1 auto;
+    width:50%;
+}
+.details{
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px;
+}
+
+a{
+    text-decoration: none;
+    color:#DDDbCE;
+}
+a:hover {
+    color: #7234fa; 
+}
+#link{
+    margin-right: 5px;
+}
+
+.introduction {
+    background-color: #222222;
+    margin-top: 40px;
+    display: block;
+    padding:2.5%;
+
+}
+#about-me,.box{
+    background-color:#7234fa ;
+    color:#DDDbCE;
+    margin:5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding:2.5%;
+    border-radius: 25px;
+   
+}
+
+#about-me{
+    display: flex;
+    flex-direction: column-reverse;
+    gap:10px;
+    font-size: 24px;
+}
+.image{
+    border-radius: 50%;
+    overflow: hidden;
+    max-height: 200px;
+    border: #222222 solid;
+}
+#about-me img{
+    align-self: center;
+}
+.aboutme{
+    flex:1 1 auto;
+    align-self: center;
+    text-align: center;
+}
+#education{
+    padding: 2.5%;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+table{
+    border:2px solid #DDDbCE;
+    text-align: center;
+    border-radius: 25px;
+    width: 100%;
+    margin: auto;
+}
+th,td{
+    padding: 1%;
+}
+tbody{
+    width: 100%;
+    display: table-row-group;
+    word-break:normal;
+}
+
+#hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    font-size: 20px;
+}
+.hobby{
+    padding:1%;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.hobby.hovered{
+    background-color: #222222;
+    border: #DDDbCE solid 2px;
+}
+
+#click{
+    background-color: #222222;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 25px;
+    color:#DDDbCE;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-color: #222222 solid;
+
+}
+
+.footer{
+    background-color: #222222;
+    color: #DDDbCE;
+    padding: 1%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 98%;
+}
+
+#contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:25px;
+}
+
+#contacts a img{
+    width: 50px;
+}
+.footer{
+    text-align: center;
+}
