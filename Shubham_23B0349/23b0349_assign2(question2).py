@@ -1,0 +1,18 @@
+import matplotlib.pyplot as plt
+import numpy as np
+x=np.array([1,2,3,4,5,6,7,8,9,10])
+y1=np.array([1200,1150,1236,1230,1480,1570,1460,1240,1340,1780])
+y2=np.array([1130,1240,1350,1505,1780,1470,1230,1760,1890,1980])
+y3=np.array([1280,1300,1170,1570,1680,1540,1478,1809,1200,1670])
+y4=np.array([1500,1780,1969,2006,1390,2367,1900,2145,2356,2000])
+y5=np.array([1200,2340,1167,1200,1345,2345,1656,1328,1800,1780])
+plt.plot(x,y1,linewidth=3,color='red',marker="o",label="A sales data")
+plt.plot(x,y2,linewidth=3,color='blue',marker="o",label="B sales data")
+plt.plot(x,y3,linewidth=3,color='green',marker="o",label="C sales data")
+plt.plot(x,y4,linewidth=3,color='hotpink',marker="o",label="D sales data")
+plt.plot(x,y5,linewidth=3,color='magenta',marker="o",label="E sales data")
+plt.xlabel("months")
+plt.ylabel("sales in the number units")
+plt.title("sales data")
+plt.legend()
+plt.show()
