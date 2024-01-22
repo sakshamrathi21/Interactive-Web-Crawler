@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive WebCrawler</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="logo"><a href="index.html">Logo</a></li>
+          <li><a href="Info.html">Info</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1>Interactive Web Crawler</h1>
+
+    <div class="rowb">
+      <section class="row text">
+        <label for="link"> Link:</label>
+      </section>
+      <section class="row type">
+        <input
+          type="text"
+          id="wl"
+          name="wl"
+          placeholder="Paste Your Link Here"
+        />
+      </section>
+    </div>
+    <div class="rowb">
+      <section class="row text">
+        <label for="depth"> Depth:</label>
+      </section>
+      <section class="row type">
+        <input
+          type="text"
+          id="depth"
+          name="depth"
+          placeholder="Enter the Recursive Depth"
+        />
+      </section>
+    </div>
+
+    <section class="lower f">
+      <button id="submit">Submit</button>
+      <div id="resultContainer"></div>
+    </section>
+
+    <footer>
+      Shivtej Ghatage • 23B3950 • Electrical Engineering • IIT Bombay
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
