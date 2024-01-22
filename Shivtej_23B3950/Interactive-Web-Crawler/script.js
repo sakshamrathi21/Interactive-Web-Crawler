@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var depth = document.getElementById("depth").value;
 
     // Make a POST request to your API
-    fetch("http://localhost:8000/crawl", {
+    fetch("https://fast-server-crawl.onrender.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
