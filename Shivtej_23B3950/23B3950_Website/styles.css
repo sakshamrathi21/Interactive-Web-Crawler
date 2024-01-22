@@ -1,0 +1,133 @@
+header {
+    background-color: black;
+    padding: 20px;
+    width: auto;
+    height: 50px;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+header .logo a {
+    background-color: black;
+    background-image: url('images/logo.png');
+    background-size: 100%;
+    display: inline-block;
+    height: 60px;
+    width:100px;
+    text-indent: -9999999px;
+    position: relative;
+    top: -17px;
+    background-repeat: no-repeat;
+    
+}
+figcaption{
+    text-align: center;
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+}
+
+nav ul li:last-child {
+    margin-right: 0; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.triple {
+    display: flex;
+
+    background-color: rgb(25, 25, 25);
+    
+}
+.triple div{
+    margin:auto;
+    padding: 30px;;
+}
+
+figure {
+    margin: auto;
+    width: 100px;
+    padding: 30px;
+}
+img {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: black 0 0 10px;
+    border: 1px grey solid;
+}
+
+
+.lower {
+    padding: 20px;
+    background-color: rgb(25, 25, 25);
+}
+
+table {
+    width: 50%;
+  
+    
+}
+table,th,td{
+    border: 1px solid;
+}
+td {
+    padding: 15px;
+}
+
+form {
+    padding: 30px;
+}
+
+footer {
+    padding: 20px;
+
+}
+
+@media screen and (max-width: 630px) {
+    .triple{
+        display: block;
+    }
+    .triple figure {
+        margin-left: 25%;
+    }
+    
+    
+}
+
+button{
+    background-color: rgb(25, 25, 25);
+    color: white;
+    border: 2px solid;
+    
+    border-radius: 2px;
+    padding: 10px;
+    width: 70px;
+}
+
+.color{
+    background-color: rgb(25, 25, 25);
+    padding: 30px;
+}
+
