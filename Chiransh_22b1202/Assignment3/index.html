@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>WIDS Assignment 3</title>
+      <link rel="stylesheet" href="./style.css" />
+   </head>
+   <body>
+      <header>
+         <div class="nameHead">
+            <h1>csweb</h1>
+         </div>
+      </header>
+
+      <main>
+         <div class="info" id="home">
+            HII! <br />
+            I AM CHIRANSH SOMANI FROM THE ELEC DEPARTMENT! <br />
+            I LIKE TO READ BOOKS AND WATCH TV SERIES!! <br />
+         </div>
+         <div class="achievements" id="achievements">
+            <h2>ACHIEVEMENTS</h2>
+
+            <div class="achievement">
+               <div class="box">
+                  <p>
+                     Secured an All India Rank of 108 in IIT-JEE Advanced out of
+                     0.15 million candidates
+                  </p>
+               </div>
+            </div>
+
+            <div class="achievement">
+               <div class="box">
+                  <p>
+                     Secured an All India Rank of 110 in JEE Main out of 1.0
+                     million candidates
+                  </p>
+               </div>
+            </div>
+
+            <div class="achievement">
+               <div class="box">
+                  <p>
+                     Conferred with the prestigious Kishore Vaigyanik Protsahan
+                     Yojana (KVPY-SX) fellowship, with an All India Rank of 134,
+                     by Department of Science and Technology, Govt. of India,
+                     amongst 50,000+ candidates
+                  </p>
+               </div>
+            </div>
+
+            <div class="achievement">
+               <div class="box">
+                  <p>Web and Events Coordinator and Techfest</p>
+               </div>
+            </div>
+
+            <div class="achievement">
+               <div class="box">
+                  <p>Survived sem 4 week 1</p>
+               </div>
+            </div>
+         </div>
+
+         <div class="images" id="images">
+            <h2>IMAGES</h2>
+
+            <div class="image-grid">
+               <!-- Row 1 -->
+               <div class="image">
+                  <img
+                     src="https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg"
+                     alt="Image 1"
+                  />
+               </div>
+               <div class="image">
+                  <img
+                     src="https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg"
+                     alt="Image 2"
+                  />
+               </div>
+               <div class="image">
+                  <img
+                     src="https://th-thumbnailer.cdn-si-edu.com/ii_ZQzqzZgBKT6z9DVNhfPhZe5g=/fit-in/1600x0/filters:focal(1061x707:1062x708)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/55/95/55958815-3a8a-4032-ac7a-ff8c8ec8898a/gettyimages-1067956982.jpg"
+                     alt="Image 3"
+                  />
+               </div>
+               <!-- Row 2 -->
+               <div class="image">
+                  <img
+                     src="https://www.shutterstock.com/image-photo/funny-cat-flying-photo-playful-600nw-2315020963.jpg"
+                     alt="Image 4"
+                  />
+               </div>
+            </div>
+            <!-- End of Image grid -->
+         </div>
+         <div class="details" id="details">
+            <h2>DETAILS</h2>
+
+            <form id="detailsForm">
+               <label for="name">Name:</label>
+               <input type="text" id="name" name="name" required />
+
+               <label for="phoneNumber">Phone Number:</label>
+               <input type="tel" id="phoneNumber" name="phoneNumber" required />
+
+               <label for="email">Email:</label>
+               <input type="email" id="email" name="email" required />
+
+               <button type="button" onclick="submitDetails()">Submit</button>
+            </form>
+         </div>
+      </main>
+   </body>
+   <script src="./script.js"></script>
+</html>
