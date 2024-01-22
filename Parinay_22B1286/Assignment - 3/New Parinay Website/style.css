@@ -1,0 +1,181 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+nav {
+    background-color: #333;
+    position: fixed; /* Fixed position at the top of the page */
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Set a high z-index to ensure it appears above other elements */
+    }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #ffc107; /* Change this to the desired color on hover */
+}
+
+main {
+    padding: 20px;
+    margin-top: 30px; /* Adjust this value based on your fixed navbar's height */
+    margin-bottom: 60px; /* Adjust this value based on your footer's height */
+}
+
+.info {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #dca6a6;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main.achievements {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.achievement {
+    margin-bottom: 20px;
+}
+main.projects {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project-box {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.box {
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main.images {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+main.details {
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer div {
+    margin: 10px;
+}
+
+/* Style links in the footer */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffc107; /* Change this to the desired color on hover */
+}
